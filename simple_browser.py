@@ -10,8 +10,6 @@ class SimpleBrowser(QMainWindow):
  
         self.browser = QWebEngineView()
         
-        
-        html_content = """
         <!DOCTYPE html>
         <html>
         <head>
@@ -26,7 +24,7 @@ class SimpleBrowser(QMainWindow):
             <p>This is a custom background example.</p>
         </body>
         </html>
-        """
+        
  
         self.browser.setHtml(html_content)
         
